@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <p>Use this area to provide additional information.</p>
+</main>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+@*<script src="~/Scripts/sw.js"></script>*@
+@Scripts.Render("~/bundles/regisWorker")
+@Scripts.Render("~/bundles/CreateDevice")
+@Scripts.Render("~/bundles/Subscripts")
+
+@*<script src="~/Scripts/CreateDevice.js"></script>
+  <script src="~/Scripts/subscriptions.js"></script>*@
+
